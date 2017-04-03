@@ -47,15 +47,15 @@ The input folder and filenames can be changed by the user within the program.
 
 ### Output 
 
-The ./op_dir folder contains kmers common to each set of comparisons :
+The output folder contains kmers common to each set of comparisons :
 
- 	species1_species2_species3
-  species1_species2
-  species1_species3
-  species2_species3
-  species1
-  species2
-  species3
+    species1_species2_species3
+    species1_species2
+    species1_species3
+    species2_species3
+    species1
+    species2
+    species3
   
 
 
