@@ -15,7 +15,7 @@ Important parameters for the user to choose are :
 - usually optimal in the range [25, 31] but can be determined by running kmerGenie
 
 **RMasking** :
-- it is recommended that the Y chromosomes be RepeatMasked prior to computing set intersections, as this may artificially inflate the kmer proportions shared
+- it is recommended that the Y chromosomes be RepeatMasked prior to computing set intersections, as the presence of shared repeats may artificially inflate the kmer proportions shared
 
 
 ### Installation 
