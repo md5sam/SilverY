@@ -34,29 +34,24 @@ Numpy and Biopython
 
 ### Input
 
-The following input files are required in ./data folder
+The following input files are required in the data folder (assuming a 3-way comparison) : 
     	
-	
-	r1.fastq : Enriched raw reads (first in pair) 
-	r2.fastq : Enriched raw reads (second in pair) 
-	kmers_from_reads : kmer counts from DSK for r1.fastq
-	trusted_kmers : kmer counts from DSK for human Y single copy genes
+	uniq_kmers_species1_Y : kmer counts from DSK from Y chromosome of species1
+	uniq_kmers_species2_Y : kmer counts from DSK from Y chromosome of species2
+	uniq_kmers_species3_Y : kmer counts from DSK from Y chromosome of species3
 
 The input folder and filenames can be changed by the user within the program. 
 
 
 ### Output 
 
-The output folder contains kmers common to each set of comparisons :
+The output folder contains kmers common to each pair or triplet of comparisons (assuming a 3-way comparison) :
 
     species1_species2_species3
     species1_species2
     species1_species3
     species2_species3
-    species1
-    species2
-    species3
-  
+    
 
 
 
