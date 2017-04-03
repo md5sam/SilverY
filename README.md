@@ -1,6 +1,6 @@
 # SilverY
 
-SilverY is a tool for shortlisting regions that are shared across Y chromosomes of different species. Specifically, it can be used for isolating homologous regions for graph genome construction. Branching points in the graph genome can be added based on regions shared between most, and not all species. 
+SilverY is a tool for shortlisting regions that are shared across Y chromosomes of different species. Specifically, it can be used for isolating homologous regions for graph genome construction. Branching points in the graph genome can be added based on regions shared between most, and not all species. Further, exact proportions of k-mer intersections can also be used to find a lower bound on estimated time of divergence between species or sub-species. 
 
 ### Usage  
 
